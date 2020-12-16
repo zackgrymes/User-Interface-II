@@ -1,1 +1,144 @@
 /* Add CSS styling here */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.container header {
+    display: flex;
+    float: right;
+    padding: 30px;
+}
+h1 {
+    float:left;
+    text-size-adjust: 20px;;
+}
+
+.container header .navBar a {
+    margin: 0 .5rem;
+    border: 2px solid black;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: .5rem;
+    color: black;
+    background: darkgray;
+    text-decoration: none;
+  }
+  
+  .container header .navBar a:hover {
+    background: white;
+    color: darkgray;
+  }
+
+  .navBar {
+    float: right;
+    justify-content: flex-end;
+
+    float: right;
+  }
+
+  .mainProject{
+    align-items: center;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25rem;
+    border: 10px solid black;
+    background-image: url("https://picsum.photos/900/500?grayscale");
+    margin-bottom: 4rem;
+    
+  }
+
+  .mainProject a {
+    margin: 0 .5rem;
+    border: 2px solid black;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: .5rem ;
+    color: black;
+    background: darkgray;
+    text-decoration: none;
+  }
+  
+  .mainProject a:hover {
+    background: white;
+    color: darkgray;
+  }
+
+  h2 {
+    font-size: 2rem;;
+    color: white;
+    padding: 1rem;
+  }
+
+.topRow {
+    display:flex;
+    justify-content: space-between;
+}
+.bottomRow {
+    display:flex;
+    justify-content: space-between;
+}
+
+  .projects {
+ 
+    width: 15rem;
+    height: 12rem;
+    margin-bottom: 3rem;
+    
+  }
+  img {
+      width: 100%;
+      height: 75%;
+      border: 5px solid black;
+  }
+
+  p{
+      text-align: center;
+      font-size: 1.75rem;
+      background: darkgray;;
+      color: black;
+      width: 75%;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      border: 2px solid black;
+      border-radius: .5rem ;
+  }
+
+  footer{
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightgrey;
+    margin-bottom: 4rem;
+    
+  }
+
+  footer a {
+    float: center;
+    margin: 0 .5rem;
+    border: 2px solid black;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: .5rem ;
+    color: black;
+    background: darkgray;
+    text-decoration: none;
+
+  }
+  
+  footer a:hover {
+    background: white;
+    color: darkgray;
+  }
